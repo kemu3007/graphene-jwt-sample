@@ -1,9 +1,13 @@
-## Django Project Template
+## Graphene-Django JWT Sample
 
-Djangoでよく使う設定をテンプレート化したものです。
+参考: https://portal.kemu.site/blog/1288798647/
 
-black, isort, mypyを利用しフォーマット/型チェック、flake8を利用しlintしています。
+### introduction
 
-テストに関してはデフォルトではDjangoのテストフレームワークを利用する形にしています。pytestなどに変更する場合はMakefileを変更してください。
+```bash
+$ docker compose up -d
+```
 
-詳細な説明: https://portal.kemu.site/blog/1206344475/
+### JWT認証実装部分
+
+`./apps/decorators.py` を参照してください。
